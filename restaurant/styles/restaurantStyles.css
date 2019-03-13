@@ -1,0 +1,65 @@
+/*
+    Name: Garrett Hall 
+    Date Created: 3-3-19
+    Most recent revision: 3-13-19
+*/
+
+header, footer 
+{
+    background-color: #546a7b;
+    color: #fef9ff;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+
+body 
+{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+@font-face 
+{
+	font-family: 'EntezareZohoor2';
+	src: url('fonts/EntezareZohoor2.eot'), url('fonts/EntezareZohoor2.ttf') format('truetype'), url('fonts/EntezareZohoor2.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#newfont
+{
+	font-family:'EntezareZohoor2';
+}	
+
+nav a {
+    background-color: #546a7b;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    display: block;
+    margin: 5px 5px;
+    width: 100px;
+    float:left;
+}
+
+nav a:visited 
+{
+    color: #551A8B; 
+}
+
+nav a:hover 
+{
+    background-color: #fef9ff;
+	font-weight: bold;
+}
+
+nav a:active 
+{
+    text-decoration: underline;
+}
+	
+
+.clear-float 
+{
+    clear:both;
+}
